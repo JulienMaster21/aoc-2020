@@ -9,7 +9,7 @@ int main() {
 
     // Open the input file
     fstream input_file;
-    input_file.open("input.txt", ios::in);
+    input_file.open("input_1.txt", ios::in);
     
     if (input_file.is_open()) {
         
