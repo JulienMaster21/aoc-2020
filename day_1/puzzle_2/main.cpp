@@ -23,9 +23,9 @@ int main() {
         input_file.close();
         
         // Check which sum of three numbers is 2020
-        int number_1;
-        int number_2;
-        int number_3;
+        int number_1 = 0;
+        int number_2 = 0;
+        int number_3 = 0;
         for (int first_number = 0; first_number < numbers.size(); ++first_number) {
 
             for (int second_number = 0; second_number < numbers.size(); ++second_number) {
@@ -53,4 +53,6 @@ int main() {
         combination_found: int result = number_1 * number_2 * number_3;
         cout << "The result is " << number_1 << " * " << number_2 << " * " << number_3 << " = " << result << "\n";
     }
+
+    return 0;
 }

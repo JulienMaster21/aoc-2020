@@ -48,4 +48,6 @@ int main() {
         // Print result
         cout << "There are a total of " << amount_of_valid_passwords << " valid passwords.\n";
     }
+
+    return 0;
 }
