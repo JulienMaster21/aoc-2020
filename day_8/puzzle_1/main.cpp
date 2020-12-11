@@ -1,7 +1,6 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <utility>
 #include <vector>
 
 using namespace std;
@@ -13,7 +12,9 @@ class Instruction {
     signed int argument;
     unsigned int times_executed;
 
-    Instruction() {
+    Instruction(unsigned int id,
+                string operation,
+                signed int argument) {
 
         this->id = id;
         this->operation = move(operation);
@@ -76,7 +77,7 @@ int main() {
             signed int argument = stoi(line.substr(4));
 
             // Add instruction to instructions vector
-            Instruction instruction = Instruction();
+            Instruction instruction = Instruction(id, operation, argument);
             instructions.push_back(instruction);
 
             // Increment id
