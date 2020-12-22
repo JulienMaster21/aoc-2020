@@ -68,3 +68,7 @@ file(   COPY ${CMAKE_CURRENT_SOURCE_DIR}/day_14/input_14.txt
         DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 add_executable(puzzle_27 day_14/puzzle_1/main.cpp)
 add_executable(puzzle_28 day_14/puzzle_2/main.cpp)
+
+# Day 15
+add_executable(puzzle_29 day_15/puzzle_1/main.cpp)
+add_executable(puzzle_30 day_15/puzzle_2/main.cpp)
