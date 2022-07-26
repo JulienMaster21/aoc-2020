@@ -57,11 +57,29 @@ file(   COPY ${CMAKE_CURRENT_SOURCE_DIR}/day_9/input_9.txt
 add_executable(puzzle_17 day_9/puzzle_1/main.cpp)
 add_executable(puzzle_18 day_9/puzzle_2/main.cpp)
 
+# Day 10
+file(   COPY ${CMAKE_CURRENT_SOURCE_DIR}/day_10/input_10.txt
+        DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+add_executable(puzzle_19 day_10/puzzle_1/main.cpp)
+add_executable(puzzle_20 day_10/puzzle_2/main.cpp)
+
+# Day 11
+file(   COPY ${CMAKE_CURRENT_SOURCE_DIR}/day_11/input_11.txt
+        DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+add_executable(puzzle_21 day_11/puzzle_1/main.cpp)
+add_executable(puzzle_22 day_11/puzzle_2/main.cpp)
+
 # Day 12
 file(   COPY ${CMAKE_CURRENT_SOURCE_DIR}/day_12/input_12.txt
         DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 add_executable(puzzle_23 day_12/puzzle_1/main.cpp)
 add_executable(puzzle_24 day_12/puzzle_2/main.cpp)
+
+# Day 13
+file(   COPY ${CMAKE_CURRENT_SOURCE_DIR}/day_13/input_13.txt
+        DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+add_executable(puzzle_25 day_13/puzzle_1/main.cpp)
+add_executable(puzzle_26 day_13/puzzle_2/main.cpp)
 
 # Day 14
 file(   COPY ${CMAKE_CURRENT_SOURCE_DIR}/day_14/input_14.txt
@@ -78,3 +96,9 @@ file(   COPY ${CMAKE_CURRENT_SOURCE_DIR}/day_16/input_16.txt
         DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 add_executable(puzzle_31 day_16/puzzle_1/main.cpp)
 add_executable(puzzle_32 day_16/puzzle_2/main.cpp)
+
+# Day 17
+file(   COPY ${CMAKE_CURRENT_SOURCE_DIR}/day_17/input_17.txt
+        DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+add_executable(puzzle_33 day_17/puzzle_1/main.cpp)
+add_executable(puzzle_34 day_17/puzzle_2/main.cpp)
